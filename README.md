@@ -4,18 +4,18 @@
 
   ```toml
   [dependencies]
-  ap2024_rustinpeace_quackdrone = { git = "https://github.com/Rust-In-Peace-AP/Super-Mario-Drone.git" }
+  ap2024_rustinpeace_supermariodrone = { git = "https://github.com/Rust-In-Peace-AP/Super-Mario-Drone.git" }
   ```
 
   Then in the code like this: :coin: :coin:
 
   ```rust
-  use ap2024_rustinpeace_quackdrone;
+  use ap2024_rustinpeace_supermariodrone;
   ...
   
   fn main(){
   
-    let drone = ap2024_rustinpeace_quackdrone::SuperMarioDrone::new(...);
+    let drone = ap2024_rustinpeace_supermariodrone::SuperMarioDrone::new(...);
   
   }
   
